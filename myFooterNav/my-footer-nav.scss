@@ -1,0 +1,11 @@
+my-footer {
+  & footer {
+    border: 1px solid grey;
+    margin-top: 3%;
+    background-color: $backGrey;
+    color: blue;  
+    & ol {
+      padding: 0px;
+    }
+  }
+}
